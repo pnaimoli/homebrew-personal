@@ -6,10 +6,7 @@ cask 'witch3' do
   else
     version '3.9.9'
     sha256 'e06e524d054fce30aa55f3031c99659e54b9b6d8d86fca20b682b2d6cf97cc8c'
-
-    url 'https://manytricks.com/download/witch'
-    appcast 'https://manytricks.com/witch/appcast.xml',
-            checkpoint: 'cf6f7530e21e6431837b3950388a8474638a1ed85d6e8149267beb30dc2c3cd0'
+    url "https://manytricks.com/download/witch/3"
   end
 
   name 'Witch'
